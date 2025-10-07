@@ -18,3 +18,20 @@ header, footer {
 article li:nth-child(odd){
     background-color:mediumpurple;
 }
+
+a:link{
+    text-decoration: none;
+    background-color:floralwhite;
+    border-style: solid;
+    border-color: mediumpurple;
+}
+a:visited{
+    text-decoration: none;
+    background-color:floralwhite;
+    border-style: solid; 
+    border-color: mediumpurple;
+}
+
+a:hover{
+    background-color: mediumpurple;
+}
