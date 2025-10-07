@@ -8,10 +8,13 @@ header, footer {
 }
 
 .site-title {
-    color:blueviolet;
+    color:mediumpurple;
 }
 
 #my-image {
     box-shadow: 0px 2px 1px black
 }
 
+article li:nth-child(odd){
+    background-color:mediumpurple;
+}
