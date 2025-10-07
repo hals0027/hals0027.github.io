@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: lavender;
+}
+
+.site-title {
+    color:blueviolet;
+}
+
+#my-image {
+    box-shadow: 0px 2px 1px black
+}
+
