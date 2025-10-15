@@ -1,0 +1,50 @@
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+.wrapper {
+    background-color: #d8f6f3;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px 60px;
+    border-right: 1px solid #000;
+    text-transform: uppercase;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.float img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-form {
+    border: solid 1px #000;
+    padding: 20px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
