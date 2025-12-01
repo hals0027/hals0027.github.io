@@ -1,0 +1,38 @@
+/* 
+body {
+    font-family: "open sans", sans-serif;
+    margin: auto;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#aboutus {
+    background-color: #ffe6ac;
+    padding: 0 1rem;
+}
+
+#services {
+    background-color: white;
+    padding: 1rem;
+}
+
+
+#vision {
+    background-image: url(/images/vision.jpg);
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    button {
+        background-color: #222;
+        color: white;
+        margin: auto;
+        padding: 20px;
+        border-color: #c78c06;
+        font-size: 1rem;
+        font-family: "open sans", sans-serif;
+    }
+}
+    */
