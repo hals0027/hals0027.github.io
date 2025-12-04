@@ -52,7 +52,7 @@ table {
 body {
     background-color: white;
     font-family: "open sans", sans-serif;
-    line-height: 1.4;
+    line-height: 1.6;
     margin: 0 0.2rem;
 }
 
@@ -83,6 +83,8 @@ h4 {
 
 p {
     font-size: 0.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 /* nav styles */
@@ -109,13 +111,13 @@ nav .material-symbols-outlined {
 #home {
     background-image: url(/images/main-banner.jpg);
     background-position: center;
-    padding: 4rem 1rem;
+    padding: 4rem 0;
     color: white;
 }
 
 .home {
     background-color: #222;
-    padding: 1.2rem 0.5rem;
+    padding: 1rem;
 }
 
 .home h1 {
@@ -124,16 +126,32 @@ nav .material-symbols-outlined {
 
 .home button {
     background-color: #c78c06;
-    margin: 1rem 0;
-    padding: 1rem;
-    font-size: medium;
+    padding: 2rem;
+    font-size: large;
 }
 
 /* about us styles */
 
+#aboutus {
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
 
+.aboutus img {
+    width: 100%;
+}
+
+.aboutus h2 {
+    font-weight: bold;
+}
+
+.aboutus p {
+    font-weight: 500;
+}
 
 /* services styles */
+
+
 
 /* team styles */
 
