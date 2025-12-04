@@ -67,14 +67,17 @@ body {
 
 h1 {
     font-size: 4rem;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 2.75rem;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 h4 {
@@ -120,10 +123,6 @@ nav .material-symbols-outlined {
     padding: 1rem;
 }
 
-.home h1 {
-    font-weight: bold;
-}
-
 .home button {
     background-color: #c78c06;
     padding: 2rem;
@@ -141,15 +140,40 @@ nav .material-symbols-outlined {
     width: 100%;
 }
 
-.aboutus h2 {
-    font-weight: bold;
-}
-
-.aboutus p {
-    font-weight: 500;
-}
-
 /* services styles */
+
+#services {
+    padding: 1rem;
+}
+
+.services {
+    background-color: #ffe6ac;
+}
+
+.services img{
+    width: 100%;
+}
+
+.services h3 {
+    padding: 1rem;
+}
+
+.services p {
+    padding: 0 1rem;
+}
+
+.services button {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.services button {
+    background-color: #222;
+    padding: 2rem;
+    font-size: large;
+    color: white;
+}
+
+/* vision styles */
 
 
 
