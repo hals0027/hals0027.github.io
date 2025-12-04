@@ -209,7 +209,7 @@ nav .material-symbols-outlined {
 /* home styles */
 
 #home {
-    background-image: url(/images/main-banner.jpg);
+    background-image: url(images/main-banner.jpg);
     background-position: center;
     padding: 4rem 0;
     color: white;
@@ -275,7 +275,7 @@ nav .material-symbols-outlined {
 /* need to fix image */
 
 #vision {
-    background-image: url(/images/vision.jpg);
+    background-image: url(images/vision.jpg);
     padding: 2rem 1rem 1rem;
     color: white;
 }
