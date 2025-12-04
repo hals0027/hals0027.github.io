@@ -221,3 +221,62 @@ nav .material-symbols-outlined {
 }
 
 /* contact styles */
+
+#contact {
+    padding: 1rem;
+}
+
+#contact h3 {
+    padding: 1rem 0 0.5rem 0;
+}
+
+#contact form {
+    font-size: 0.8rem;
+}
+
+#fullname {
+    width: 100%;
+    padding: 0.4rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#email {
+    width: 100%;
+    padding: 0.4rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#message {
+    width: 100%;
+    padding: 3rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#contact button {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 1.4rem;
+}
+
+#contact table {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#contact table, th, td {
+    border: 1px solid #222;
+}
+
+#contact th {
+    background-color: #ffe6ac;
+}
+
+#contact th, td {
+    padding: 0.8rem;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+/* footer styles */
