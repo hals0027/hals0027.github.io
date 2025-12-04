@@ -175,7 +175,23 @@ nav .material-symbols-outlined {
 
 /* vision styles */
 
+#vision {
+    background-image: url(/images/vision.jpg);
+    padding: 2rem 1rem 1rem;
+    color: white;
+}
 
+#vision h3 {
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+#vision button {
+    background-color:transparent;
+    padding: 2rem;
+    font-size: large;
+    color: white;
+    border: solid #c78c06;
+}
 
 /* team styles */
 
