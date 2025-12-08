@@ -328,7 +328,8 @@ nav .material-symbols-outlined {
     margin: 0 auto;
 }
 
-.member h3, h4 {
+.member h3,
+h4 {
     margin: 0 1rem;
 }
 
