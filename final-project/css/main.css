@@ -215,7 +215,7 @@ nav .material-symbols-outlined {
 /* home styles */
 
 #home {
-    background-image: url(main-banner.jpg);
+    background-image: url(/images/main-banner.jpg);
     padding: 4rem 0;
     color: white;
 }
