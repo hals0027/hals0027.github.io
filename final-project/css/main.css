@@ -300,33 +300,31 @@ nav .material-symbols-outlined {
 }
 
 /* team styles */
-/* need spacing between john and bob */
 
 #team {
     padding: 1rem;
 }
 
-.teams {
+.team-photo img {
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+.member {
     background-color: #ffe6ac;
     margin: 0 auto;
 }
 
-.teams img {
-    width: 100%;
-    background-color: white;
-    padding-top: 1rem;
-}
-
-.teams h3,
-h4 {
+.member h3, h4 {
     margin: 0 1rem;
 }
 
-.teams h4 {
+.member h4 {
     border-bottom: solid #c78c06;
 }
 
-.teams p {
+.member p {
     padding: 1rem;
 }
 
