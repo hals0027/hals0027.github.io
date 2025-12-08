@@ -202,7 +202,7 @@ nav li {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 100%;
+    max-width: 96%;
     padding: 0.6rem;
 }
 
@@ -247,21 +247,24 @@ nav .material-symbols-outlined {
 
 #services {
     padding: 1rem;
+    margin: 0 0 1rem 0;
 }
 
 .services {
     background-color: #ffe6ac;
 }
 
-.services img {
+#services img {
+    padding-top: 1rem;
     width: 100%;
+    background-color: white;
 }
 
-.services h3 {
+#services h3 {
     padding: 1rem;
 }
 
-.services p {
+#services p {
     padding: 0 1rem;
 }
 
@@ -271,15 +274,15 @@ nav .material-symbols-outlined {
 
 .services button {
     background-color: #222;
-    padding: 2rem;
+    padding: 2rem 3rem;
     font-size: large;
     color: white;
 }
 
 /* vision styles */
-/* need to fix image */
 
 #vision {
+    background-image: url(/images/vision.jpg);
     padding: 2rem 1rem 1rem;
     color: white;
 }
@@ -290,7 +293,7 @@ nav .material-symbols-outlined {
 
 #vision button {
     background-color: transparent;
-    padding: 2rem;
+    padding: 2rem 3rem;
     font-size: large;
     color: white;
     border: solid #c78c06;
@@ -310,6 +313,8 @@ nav .material-symbols-outlined {
 
 .teams img {
     width: 100%;
+    background-color: white;
+    padding-top: 1rem;
 }
 
 .teams h3,
@@ -401,3 +406,6 @@ footer a {
 
 /* media queries - 760px and above */
 
+@media screen and (min-width: 760px) {
+    
+}
