@@ -198,7 +198,13 @@ nav li {
 
 /* i'm pretty sure home is supposed to have yellow bg and grey text. idk how to do that */
 
-/* need to fix search */
+#search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.6rem;
+}
 
 nav .material-symbols-outlined {
     border: 1px solid #c78c06;
@@ -209,8 +215,7 @@ nav .material-symbols-outlined {
 /* home styles */
 
 #home {
-    background-image: url(/images/main-banner.jpg);
-    background-position: center;
+    background-image: url(final-project/images/main-banner.jpg);
     padding: 4rem 0;
     color: white;
 }
@@ -275,7 +280,6 @@ nav .material-symbols-outlined {
 /* need to fix image */
 
 #vision {
-    background-image: url(../images/vision.jpg);
     padding: 2rem 1rem 1rem;
     color: white;
 }
@@ -301,6 +305,7 @@ nav .material-symbols-outlined {
 
 .teams {
     background-color: #ffe6ac;
+    margin: 0 auto;
 }
 
 .teams img {
